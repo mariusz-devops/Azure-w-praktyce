@@ -1,0 +1,11 @@
+# Kod YAML - definicja prostej aplikacji z cachem Redis
+version: '3.8' # Wersja formatu pliku Compose
+services:      # Główna sekcja definicji kontenerów
+  web:         # Każdy serwis pod tą sekcją to osobny kontener
+    build: .   # Buduje obraz z Dockerfile w bieżącym katalogu
+    ports:
+      - "5000:5000" # Mapowanie portów
+    depends_on:
+      - redis  # Określa kolejność - web czeka na start serwisu redis
+  redis:
+    image: redis:alpine # Pobiera gotowy, lekki obraz z Docker Hub  
