@@ -1,9 +1,9 @@
-# Cloud Task Manager (2026)
+# Cloud Task Manager - Książka Azure w Praktyce by Mariusz Dworniczak
 
 Projekt natywnej aplikacji chmurowej realizowany w architekturze 3-warstwowej. 
 
 ## Deklaracja Architektury (Mapowanie Azure)
-Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Service) w regionie **Poland Central**.
+Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Service) w chmurze Azure.
 
 | Warstwa | Komponent Lokalny | Usługa Azure |
 | :--- | :--- | :--- |
