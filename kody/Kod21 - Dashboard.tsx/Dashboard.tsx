@@ -27,7 +27,7 @@ const Dashboard = () => {
         </div>
       )}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        {items.length === 0 && !error && <p>Brak zadań w bazie. Dodaj coś przez Swaggera (http://localhost:8081)!</p>}
+        {items.length === 0 && !error && <p>Brak zadań w bazie. Dodaj coś przez Swaggera ({import.meta.env.VITE_API_URL})!</p>}
         <ul style={{ listStyle: 'none', padding: 0 }}>
           {items.map((item) => (
             <li key={item.id} style={{ 
@@ -46,3 +46,5 @@ const Dashboard = () => {
       </div>
     </div>
   );
+}
+export default Dashboard;

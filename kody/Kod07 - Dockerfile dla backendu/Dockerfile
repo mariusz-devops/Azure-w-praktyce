@@ -1,4 +1,4 @@
-Dockerfile dla backendu
+#Dockerfile dla backendu
 #Wykorzystujemy minimalny obraz systemu Linux (Alpine)
 FROM alpine
 #Instalacja narzędzia curl do testów łączności międzyserwisowej

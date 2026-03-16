@@ -1,4 +1,4 @@
-Dockerfile dla frontendu
+#Dockerfile dla frontendu
 #Wykorzystujemy obraz bazowy serwera Nginx na dystrybucji Alpine Linux
 FROM nginx:alpine
 #Informacja dla Dockera, że kontener nasłuchuje na porcie 80
